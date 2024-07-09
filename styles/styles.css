@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+/* header */
+.first-head {
+    background-image: url("../assets/Hero-bg.png");
+    
+    background-size: cover;
+    margin-bottom: 74px;
+
+}
+.head-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 26px 221px 44px;
+}
+.head-photo {
+    
+}
+
+.head-bar {
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+.head-text {
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.head-btn {
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* 2nd head */
+
+.part-two {
+    padding: 80px;
+    margin: 74px 152px 88px;
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.sec-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+.sec-head {
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    
+}
+.sec-des {
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.main-one {
+    padding: 48px;
+    margin-bottom: 32px;
+    background-color: white;
+}
+
+.sec-world {
+    margin-top: 10.5px;
+    margin-bottom: 9.5px;
+}
+.first-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.world {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.worldwide {
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+.sec-btn {
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 5px 10px;
+
+}
+.layer-one {
+    width: 259.56px;
+    height: 217.01px;
+    padding: 5px;
+}
+/* main two div */
+
+.main-two {
+    padding: 48px;
+    margin-bottom: 32px;
+    background-color: white;
+    
+}
+.sec-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.two-text {
+    margin-top: 10.5px;
+    margin-bottom: 9.5px;
+    padding-right: 101px;
+}
+.two-img {
+    width: 223.2px;
+    height: 208.85px;
+    margin-bottom: 31.15px;
+    padding: 5px;
+}
+
+
+.two-head {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;   
+    margin-bottom: 16px;
+}
+.two-des {
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+/* main three div */
+
+.three-one {
+    padding: 48px;
+    background-color: white;
+}
+
+.three-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.three-text {
+    margin-top: 10.5px;
+    margin-bottom: 9.5px;
+}
+.three-head {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.three-des {
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+} 
+.three-img {
+    width: 206.4px;
+    height: 187.32px;
+    padding: 5px;
+}
