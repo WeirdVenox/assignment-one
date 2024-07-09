@@ -61,10 +61,14 @@
 
 .part-two {
     padding: 80px;
-    margin: 74px 152px 88px;
+    max-width: 1140px;
+    max-height: 1395px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 16px;
 
     background: rgba(13, 19, 33, 0.02);
+    margin-bottom: 88px;
 }
 
 .sec-bar {
@@ -166,6 +170,7 @@
     margin-top: 10.5px;
     margin-bottom: 9.5px;
     padding-right: 101px;
+    margin-left: 48.8px;
 }
 .two-img {
     width: 223.2px;
@@ -236,4 +241,47 @@
     width: 206.4px;
     height: 187.32px;
     padding: 5px;
+}
+
+/* third body */
+
+.inspiration {
+    max-width: 1140px;
+    max-height: 775px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ins-text {
+    margin-bottom: 48px;
+}
+
+.ins-head {
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.motivated {
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.jhankar-sir {
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
 }
